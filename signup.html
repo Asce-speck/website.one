@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body class="signup-body">
+    <p class="signup-information">If you want to fully benefit from our services, please sign up below:</p>
+
+
+<form action="process.php" method="post">
+<div class="form-group">
+       
+    <div>
+      <label for="firstname">First Name:</label>
+      <input type="text" id="firstname" name="firstname">
+    </div>
+    <div>
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastname">
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+    </div>
+   
+     
+    <div>
+      <label for="password">Password:</label>
+      <input minlength="8" maxlength="100" type="password" id="password" name="password">
+    </div>
+    <div>
+      <label for="confirm_password">Confirm Password:</label>
+      <input minlength="8" maxlength="100" type="password" id="confirm_password" name="confirm_password">
+    </div>
+    <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+    </div>
+    
+</div>
+    <button class="submitButton" type="submit">Submit</button>
+
+</form>
+
+<div class="second-option-button">Have an account? <button class="second-option"><a href="login.html">Log in</a></button>.</div>
+
+</body>
+</html>

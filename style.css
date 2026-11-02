@@ -91,6 +91,7 @@ button {
     padding: 10px;
     margin: 5px #E5E7EB;
     color: #E5E7EB;
+    border-radius: 5px;
 }
 
 ul {
@@ -162,4 +163,50 @@ justify-content: space-evenly;
 .specific {
     font-size: large;
     font-weight: 600;
+}
+.signup-body {
+    background-image: url(images/BENJAMINVOROS.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: lavender;
+    font-size: 20px;
+}
+.form-group {
+    width: 50%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-left: 25%;
+}
+.submitButton {
+    margin-top: 4%;
+    margin-left: 47%;
+    background-color: #596D48;
+
+}
+.second-option-button {
+    margin-right: 10%;
+    margin-top: 100px;
+}
+.second-option {  
+    background-color: #596D48;
+    
+}
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px #E5E7EB;
+    
+}
+input:user-invalid{
+    border: 3px solid #ff0000;
+}
+.form-group input:focus{
+    outline: none;
+    border: 3px solid blue;
 }
